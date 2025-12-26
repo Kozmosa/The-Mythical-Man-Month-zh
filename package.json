@@ -1,6 +1,11 @@
 {
+  "type": "module",
   "scripts": {
-    "docs:dev": "vuepress dev docs --open --host 127.0.0.1",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
   }
 }

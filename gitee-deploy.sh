@@ -4,10 +4,10 @@
 set -e
 
 # build
-yarn docs:build
+npm run docs:build
 
 # navigate into the build output directory
-cd docs/.vuepress/dist
+cd docs/.vitepress/dist
 
 # if you are deploying to a custom domain
 echo 'http://gdut_yy.gitee.io/doc-tmmm/' > CNAME
